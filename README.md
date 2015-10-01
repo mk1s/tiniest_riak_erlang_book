@@ -1,2 +1,7 @@
-# tiniest_riak_erlang_book
-Introduction to interacting with Riak and Erlang
+# Tiniest Riak Erlang Book
+
+A simple book that introduces the relationship between Riak and Erlang.
+
+## Goals
+
+An introduction to introspecting and debugging Riak from within Erlang.
