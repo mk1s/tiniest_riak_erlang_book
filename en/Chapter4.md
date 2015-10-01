@@ -1,3 +1,5 @@
+# The Tiniest Riak (Erlang) Book
+
 ## Introduction to Processes
 
 Erlang is provides high concurrency whether you are running a single node or hundreds.  It accomplishes this by providing developers with the ability to create lightweight processes that exist solely within the VM.  
