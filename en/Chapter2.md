@@ -40,7 +40,7 @@ So this adds yet another tool to our growing toolbox, as we can actually modify 
 
 Not all configuration options are dynamic, but a lot are and being able to alter settings at runtime can be useful in debugging, tuning, etc.  
 
-Which specific Riak configuration options are beyond the scope of this document, so hit the docs<sup>2</sup>.
+Which specific Riak configuration options are dynamic is beyond the scope of this document, so hit the docs<sup>2</sup>.
 
 The vm.args file is used specifically for initializing and tuning different settings of the Erlang VM Riak runs in.
 
@@ -48,4 +48,4 @@ The vm.args file is used specifically for initializing and tuning different sett
 
 <sup>1</sup> *Starting with Riak 2.0+, the new cuttlefish configuration system was introduced which provides a more simplified `sysctl` like configuration file as well as granular schema definition and validation.  However, under the hood cuttlefish transforms `riak.conf` into `app.config` and `vm.args` files.*
 
-<sup>2</sup> [Official Basho Documentation](http://docs.basho.com)
+<sup>2</sup> [*Official Basho Documentation*](http://docs.basho.com) 

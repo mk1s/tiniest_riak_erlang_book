@@ -2,9 +2,11 @@
 
 ## OTP ~~For The~~ Because I'm Impatient
 
-The Erlang Open Telephony Platform is a book in its own right, in fact they are already written, but we'll give a lightning fast introduction.
+The Erlang Open Telecom Platform is a book in its own right, in fact they are already written, but we'll give a lightning fast introduction.
 
-Ericsson developed Erlang as the foundation for its switching platform and in doing so created some reusable patterns that are the basis of the OTP framework.  These patterns take the form of behaviors, which you define as part of your Erlang module declaration:
+Ericsson developed Erlang as the foundation of their new switching platform and in doing so developed and exposed some reusable patterns that grew into what we call the OTP framework.  
+
+These patterns are referred to as behaviors, which you declare as part of your Erlang module:
 
 ```
 -module(my_module).
@@ -16,9 +18,9 @@ ALL THE CODE!!!
 
 ```
 
-Behaviors define a set of functions that need to be defined and exported in order to adhere to their specification, but we'll leave it at that and you can go investigate behavior creation on your own.
+Behaviors require a set of functions that need to be defined and exported in order to satisfy their specification. 
 
-Some examples of OTP behaviors used in Riak are:
+I'll leave the details of that for your own investigations, however, some of the OTP behaviors used by Riak include:
 
 * gen_server
 
